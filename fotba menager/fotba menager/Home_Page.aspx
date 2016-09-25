@@ -1,13 +1,16 @@
-﻿<%@ Page Theme="teme" Language="C#" AutoEventWireup="true" CodeBehind="Home_Page.aspx.cs" Inherits="WebApplication1.defult_pages.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home_Page.aspx.cs" Inherits="WebApplication1.defult_pages.WebForm1" %>
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head runat="server">
-    <link href="../Content/3-col-portfolio.css" rel="stylesheet" />
-        <link href="../Content/bootstrap.min.css" rel="stylesheet" />
-    <script src="../scripts/bootstrap.min.js"></script>
-    <script src="../scripts/jquery-3.0.0.min.js"></script>
+        <title>Home</title>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="Content/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="Scripts/bootstrap.min.js"></script>
              <script type="text/javascript">
              var jeset = false;
              function on_mouse_over()
@@ -34,9 +37,10 @@
             setTimeout(on_tick_big, 1500);
 
         }
+        
+        
     </script>
-  
-    <title></title>
+
       <style>
       .btn-big {
           width: 200px;
@@ -60,30 +64,28 @@
     height:100%;
     background-size: 1366px 710px;
     background-repeat: no-repeat;
-    /*background-color: #cccccc;*/
+    background-color: #cccccc;
 }
-        </style>
+</style>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <br />
-         <br />
-         <br />
-         <br />
-         <br />
-        <div class="container"><center>
-
-
-
-
-                <button id="Button1" type="button" value="Igraj Sada"  class=" btn-normal " onmouseover="on_mouse_over();"  onmouseout="on_mouse_leave();" >
-                  <asp:Label ID="Label1" runat="server" Text=" Igraj" Font-Bold="True"></asp:Label>
-                    <asp:Label ID="sada" runat="server" Text=" Sada" ></asp:Label>
+        <div class="container">
+            <center>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            
+          
+         <button id="Button1" type="button"  data-toggle="modal" data-target="#myModal" value="Igraj Sada"  onmouseover="on_mouse_over();"  onmouseout="on_mouse_leave();"    >
+                  
                      <span class="glyphicon glyphicon-align-right glyphicon-log-in"></span>
                     </button>
-
-                </center>
+          
+                  
             <script type="text/javascript">
                     {
                        
@@ -92,10 +94,30 @@
                         
                     
                 </script>
-        </div>
-            
+
+      <%--  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>--%>
+
+         <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
     
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
     </div>
+  </div>
+                </center>
+                </div>      
     </form>
 </body>
 </html>

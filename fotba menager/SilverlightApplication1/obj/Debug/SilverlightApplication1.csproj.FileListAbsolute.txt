@@ -1,0 +1,12 @@
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\SilverlightApplication1\Bin\Debug\SilverlightApplication1.dll
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\SilverlightApplication1\Bin\Debug\SilverlightApplication1.pdb
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\SilverlightApplication1\Bin\Debug\AppManifest.xaml
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\SilverlightApplication1\Bin\Debug\SilverlightApplication1.xap
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\SilverlightApplication1\Bin\Debug\SilverlightApplication1TestPage.html
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\SilverlightApplication1\obj\Debug\SilverlightApplication1.csprojResolveAssemblyReference.cache
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\SilverlightApplication1\obj\Debug\App.g.cs
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\SilverlightApplication1\obj\Debug\MainPage.g.cs
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\SilverlightApplication1\obj\Debug\SilverlightApplication1.g.resources
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\SilverlightApplication1\obj\Debug\SilverlightApplication1.dll
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\SilverlightApplication1\obj\Debug\SilverlightApplication1.pdb
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\SilverlightApplication1\obj\Debug\XapCacheFile.xml
