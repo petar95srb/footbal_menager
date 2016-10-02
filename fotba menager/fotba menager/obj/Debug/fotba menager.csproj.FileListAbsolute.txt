@@ -64,3 +64,5 @@ C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\fotba mena
 C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\fotba menager\obj\Debug\fotba menager.csprojResolveAssemblyReference.cache
 C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\fotba menager\obj\Debug\fotba menager.dll
 C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\fotba menager\obj\Debug\fotba menager.pdb
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\fotba menager\bin\MySql.Data.dll
+C:\Users\petar\Documents\GitHub\web app\footbal_menager\fotba menager\fotba menager\bin\MySql.Web.dll

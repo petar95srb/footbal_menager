@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home_Page.aspx.cs" Inherits="WebApplication1.defult_pages.WebForm1" %>
+﻿
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home_Page.aspx.cs" Inherits="WebApplication1.defult_pages.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -42,7 +43,8 @@
     </script>
 
       <style>
-      .btn-big {
+      .btn-big
+       {
           width: 200px;
           height: 42px;
           color: #fff;
@@ -51,7 +53,9 @@
 
           
       }
-      .btn-normal{
+
+      .btn-normal
+      {
           width:160px;
           height: 35px;
           color: #fff;
@@ -80,7 +84,7 @@
             <br />
             
           
-         <button id="Button1" type="button"  data-toggle="modal" data-target="#myModal" value="Igraj Sada"  onmouseover="on_mouse_over();"  onmouseout="on_mouse_leave();"    >
+         <button id="Button1" type="button"  data-toggle="modal" data-target="#myModal" value="Igraj Sada"   onmouseover="on_mouse_over();"  onmouseout="on_mouse_leave();"   >
                   
                      <span class="glyphicon glyphicon-align-right glyphicon-log-in"></span>
                     </button>

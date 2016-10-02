@@ -26,7 +26,8 @@
           <EnableENC>True</EnableENC>
           <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
           <ProjectOutputReferences>
-            <Ref Project="{BEBD68A8-1F1D-41DF-ABDA-D51DD211D07A}" Folder="ClientBin">SilverlightApplication1.xap</Ref>
+            <Ref Project="{BEBD68A8-1F1D-41DF-ABDA-D51DD211D07A}" Folder="ClientBin">
+            </Ref>
           </ProjectOutputReferences>
         </WebProjectProperties>
       </FlavorProperties>
